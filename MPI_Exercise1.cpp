@@ -2,9 +2,9 @@
 Algoritmos Paralelos y Distribuidos 2019-II
 Ingenieria Informatica y de Sistemas
 Rojas Cahuana Etson Ronaldao
----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
 PRACTICA 5
----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
 TAREA1: 
 Escribir un programa paralelo en MPI en el que cada proceso calcule la suma de los
 elementos de un vector de tamaño N y muestre su resultado indicando el
