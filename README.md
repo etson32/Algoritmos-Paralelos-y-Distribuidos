@@ -32,4 +32,4 @@ _Para ejecutar los algoritmos necesitas tener instalados los paquetes de OpenMP,
 
 * [CUDA Online - Colaboratory](https://www.youtube.com/watch?v=wXHtQ6TE3to)
 
-⌨️ con ❤️ por [Etson Rojas](https://github.com/etson32) 😊
+⌨️ con ❤️ por [Etson Rojas](https://github.com/etson32)
