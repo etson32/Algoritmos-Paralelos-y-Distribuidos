@@ -6,9 +6,9 @@ Rojas Cahuana Etson Ronaldao
 PRACTICA 5
 ---------------------------------------------------------------------------------
 TAREA2: 
-Escribir un programa paralelo para que el proceso 0 envÃ­e dos nÃºmeros reales
-al proceso 1 y Ã©ste devuelva el resultado de la suma al proceso 0 que lo
-imprimirÃ¡.
+Escribir un programa paralelo para que el proceso 0 envíe dos números reales
+al proceso 1 y éste devuelva el resultado de la suma al proceso 0 que lo
+imprimirá.
 */
 #include "stdafx.h"
 #include <stdio.h>
@@ -63,3 +63,4 @@ int main(int argc, char **argv)
 	MPI_Finalize();
 	return 0;
 }
+

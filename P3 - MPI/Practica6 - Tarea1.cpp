@@ -5,10 +5,10 @@ Rojas Cahuana Etson Ronaldao
 ---------------------------------------------------------------------------------
 PRACTICA 6
 ---------------------------------------------------------------------------------
-Tarea1:
-Escribir un programa paralelo con MPI para calcular la integral de la funciÃ³n:
+Tarea1
+Escribir un programa paralelo con MPI para calcular la integral de la función:
 f = 1/(x+1) + 1/(x^2+1)
-Utilice el mÃ©todo de suma de trapecios bajo la curva.
+Utilice el método de suma de trapecios bajo la curva.
 */
 #include "stdafx.h"
 #include <math.h>
@@ -19,13 +19,13 @@ using namespace std;
 int main(int argc, char *argv[])
 {
 	int n, // Numero de iteraciones
-	rank, // Identificador de proceso
-	size; // Numero de procesos
+		rank, // Identificador de proceso
+		size; // Numero de procesos
 	//double PI25DT = 3.141592653589793238462643;
 	double myf, // Valor local de la funcion
-	respuesta, // Valor globarl de la funcion
-	h, // Aproximacion del area para el calculo de la funcion
-	sum; // Acumulador para la suma del area de la funcion
+		respuesta, // Valor globarl de la funcion
+		h, // Aproximacion del area para el calculo de la funcion
+		sum; // Acumulador para la suma del area de la funcion
 	bool valor_por_parametros = true; // Comprueba si hay valores por parametros
 	MPI_Init(&argc, &argv); // Inicializamos los procesos
 	MPI_Comm_size(MPI_COMM_WORLD, &size); // Obtenemos el numero total de procesos

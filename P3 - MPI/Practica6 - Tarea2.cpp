@@ -6,7 +6,7 @@ Rojas Cahuana Etson Ronaldao
 PRACTICA 6
 ---------------------------------------------------------------------------------
 TAREA2:
-Escribir un programa paralelo para que en una ejecuciÃ³n con cuatro procesos,
+Escribir un programa paralelo para que en una ejecución con cuatro procesos,
 P0 reparte datos del vector B (de 16 enteros) de la siguiente manera: a P2: B[3],
 B[4], B[5]; a P1: B[7], B[8]; a P0: B[10]; y a P3: B[12], B[13], B[14], B[15]. Tras
 ello, cada proceso suma 100 a los elementos recibidos, y, finalmente, se
@@ -43,7 +43,7 @@ int main(int argc, char **argv)
 	tam[0] = 1; tam[1] = 2; tam[2] = 3; tam[3] = 4;
 	/* vector de desplazamientos desde el origen a cada trozo */
 	desp[0] = 10; desp[1] = 7; desp[2] = 3; desp[3] = 12;
-	//Operacion para repartir datos a los diferentes procesos (en tamaÃ±os diferentes)
+	//Operacion para repartir datos a los diferentes procesos (en tamaños diferentes)
 	MPI_Scatterv(&B[0], tam, desp, MPI_INT, &C[0], tam[p], MPI_INT, 0, MPI_COMM_WORLD);
 	//Sumar 100 a los datos recibidos
 	for (int i = 0; i < 16; i++)

@@ -2,13 +2,13 @@
 Algoritmos Paralelos y Distribuidos 2019-II
 Ingenieria Informatica y de Sistemas
 Rojas Cahuana Etson Ronaldao
-----------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
 PRACTICA 5
-----------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
 TAREA1: 
-Escribir un programa paralelo en MPI en el que cada proceso calcule la suma de los
-elementos de un vector de tamaÃ±o N y muestre su resultado indicando el
-nÃºmero del proceso que ha hecho la suma.
+Escribir un programa paralelo en MPI en el cada proceso calcule la suma de los
+elementos de un vector de tamaño N y muestre su resultado indicando el
+número del proceso que ha hecho la suma.
 */
 #include "stdafx.h"
 #include <mpi.h>
@@ -40,7 +40,7 @@ int main(int argc, char **argv)
 	{
 		//sumar los valores del vector
 		respuesta = respuesta + vector[i];
-		//En la ultima iteracion en cada hilo se debe mostrar el resultado y el hilo que trabajÃ³
+		//En la ultima iteracion en cada hilo se debe mostrar el resultado y el hilo que trabajó
 		if (i == n-1)
 		{
 			cout << "Proceso: " << pid << " Suma de los elementos del vector: " << respuesta << endl;
