@@ -1,6 +1,6 @@
 # Algoritmos Paralelos y Distribuidos
 _UNIVERSIDAD NACIONAL DE SAN ANTONIO ABAD DEL CUSCO_
-_Ingeniería Informática y de Sistemas - Cusco - Perú_
+Ingeniería Informática y de Sistemas - Cusco - Perú
 _Por: Etson Ronaldao Rojas Cahuana._
 _Este repositorio contiene ejercicios basicos de programacion paralela usando las herramientas:_
 _-Threads c++_
