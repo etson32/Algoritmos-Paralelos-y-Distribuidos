@@ -6,6 +6,8 @@ Ingeniería Informática y de Sistemas - Cusco - Perú.
 
 _Por: Etson Ronaldao Rojas Cahuana._
 
+_Autor de las guias: Ing. Iván César Medrano Valencia._
+
 _Este repositorio contiene ejercicios basicos de programacion paralela usando las herramientas:_
 
 _-Threads c++_
