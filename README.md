@@ -1,5 +1,6 @@
 # Algoritmos Paralelos y Distribuidos
-_UNIVERSIDAD NACIONAL DE SAN ANTONIO ABAD DEL CUSCO_
+
+UNIVERSIDAD NACIONAL DE SAN ANTONIO ABAD DEL CUSCO
 
 Ingeniería Informática y de Sistemas - Cusco - Perú.
 
