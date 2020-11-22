@@ -19,10 +19,6 @@ _-RMI_
 
 _Todo en el lenguaje de programacion c++._
 
-# Algoritmos Paralelos y Distribuidos
-
-_Este repositorio contiene ejercicios basicos de programacion paralela._
-
 ## Comenzando 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
@@ -35,3 +31,4 @@ _Para ejecutar los algoritmos necesitas tener instalados los paquetes de OpenMP,
 
 * [CUDA Online - Colaboratory](https://www.youtube.com/watch?v=wXHtQ6TE3to)
 
+⌨️ con ❤️ por [Etson Rojas](https://github.com/etson32) 😊
