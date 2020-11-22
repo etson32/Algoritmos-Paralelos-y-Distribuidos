@@ -1,13 +1,22 @@
 # Algoritmos Paralelos y Distribuidos
 _UNIVERSIDAD NACIONAL DE SAN ANTONIO ABAD DEL CUSCO_
-Ingeniería Informática y de Sistemas - Cusco - Perú
+
+Ingeniería Informática y de Sistemas - Cusco - Perú.
+
 _Por: Etson Ronaldao Rojas Cahuana._
+
 _Este repositorio contiene ejercicios basicos de programacion paralela usando las herramientas:_
+
 _-Threads c++_
+
 _-OpenMP_
+
 _-MPI_
+
 _-CUDA_
+
 _-RMI_
+
 _Todo en el lenguaje de programacion c++._
 
 # Algoritmos Paralelos y Distribuidos
@@ -19,7 +28,6 @@ _Este repositorio contiene ejercicios basicos de programacion paralela._
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
 Mira **Deployment** para conocer como desplegar el proyecto.
-
 
 ### Pre-requisitos 📋
 
